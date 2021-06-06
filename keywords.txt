@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map MyName
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+AsyncTransfer	KEYWORD1
+AsyncTransferCallback	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+AsyncRecieve	KEYWORD2
+Recieve	KEYWORD2
+Send	KEYWORD2
+Start	KEYWORD2
+Stop	KEYWORD2
+IsExpired	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

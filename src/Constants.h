@@ -1,0 +1,33 @@
+#pragma once
+
+const char C_STARTOFHEADING = '\x001';
+const char C_STARTOFTEXT = '\x002';
+const char C_ENDOFTEXT = '\x003';
+const char C_ENDOFTRANSMISSION = '\x004';
+const char C_ENQUIRY = '\x005';
+const char C_ACKNOWLEDGE = '\x006';
+const char C_BELL = '\x007';
+const char C_BACKSPACE = '\x008';
+const char C_HORIZONTALTABULATION = '\x009';
+const char C_LINEFEED = '\x010';
+const char C_VERTICALTABULATION = '\x011';
+const char C_FORMFEED = '\x012';
+const char C_CARRIAGERETURN = '\x013';
+const char C_SHIFTOUT = '\x014';
+const char C_SHIFTIN = '\x015';
+const char C_DATALINKESCAPE = '\x016';
+const char C_DEVICECONTROLONE = '\x017';
+const char C_DEVICECONTROLTWO = '\x018';
+const char C_DEVICECONTROLTHREE = '\x019';
+const char C_DEVICECONTROLFOUR = '\x020';
+const char C_NEGATIVEACKNOWLEDGE = '\x021';
+const char C_SYNCHRONOUSIDLE = '\x022';
+const char C_ENDOFTRANSMISSIONBLOCK = '\x023';
+const char C_CANCEL = '\x024';
+const char C_ENDOFMEDIUM = '\x025';
+const char C_SUBSTITUTE = '\x026';
+const char C_ESCAPE = '\x027';
+const char C_FILESEPARATOR = '\x028';
+const char C_GROUPSEPARATOR = '\x029';
+const char C_RECORDSEPARATOR = '\x030';
+const char C_UNITSEPARATOR = '\x031';

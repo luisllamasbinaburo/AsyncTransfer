@@ -1,0 +1,26 @@
+#include "AsyncTransfer.h"
+
+AsyncTransfer transfer(Serial);
+
+struct Data
+{
+	uint16_t x;
+	uint16_t y;
+	uint16_t z;
+};
+
+Data data;
+
+void setup()
+{
+	while(!Serial) { ; }
+	Serial.begin(9600);
+	Serial.println("Starting");
+
+	transfer.Send(data);
+}
+
+void loop()
+{
+	delay(1000); //do nothing
+}
